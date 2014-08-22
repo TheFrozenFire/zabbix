@@ -38,6 +38,7 @@ class API {
 		'alert' => 'CAlert',
 		'apiinfo' => 'CAPIInfo',
 		'application' => 'CApplication',
+		'autoreghost' => 'CAutoRegHost',
 		'configuration' => 'CConfiguration',
 		'dcheck' => 'CDCheck',
 		'dhost' => 'CDHost',
@@ -165,6 +166,13 @@ class API {
 	 */
 	public static function Application() {
 		return self::getObject('application');
+	}
+	
+	/**
+	 * @return CAutoRegHost
+	 */
+	public static function AutoRegHost() {
+		return self::getObject('autoreghost');
 	}
 
 	/**
