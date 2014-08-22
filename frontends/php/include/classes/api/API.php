@@ -121,6 +121,13 @@ class API {
 	public static function Application() {
 		return self::getApi('application');
 	}
+	
+	/**
+	 * @return CAutoRegHost
+	 */
+	public static function AutoRegHost() {
+		return self::getApi('autoreghost');
+	}
 
 	/**
 	 * @return CConfiguration

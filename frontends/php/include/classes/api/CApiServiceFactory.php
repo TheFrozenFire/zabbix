@@ -31,6 +31,7 @@ class CApiServiceFactory extends CRegistryFactory {
 			'alert' => 'CAlert',
 			'apiinfo' => 'CAPIInfo',
 			'application' => 'CApplication',
+			'autoreghost' => 'CAutoRegHost',
 			'configuration' => 'CConfiguration',
 			'dcheck' => 'CDCheck',
 			'dhost' => 'CDHost',
